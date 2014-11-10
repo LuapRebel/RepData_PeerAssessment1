@@ -167,4 +167,4 @@ xyplot(mean ~ interval | day, data=mean_steps2, layout=c(1,2),
 
 ![plot of chunk panelplot](figure/panelplot-1.png) 
    
-There is a difference in activity patterns between weekdays and weekends.  The patterns are more evenly spread out throughout the day than on weekdays.  Both days have their highest point at about the same time which lies around the range of intervals 800-900. 
+There is a difference in activity patterns between weekdays and weekends.  The patterns are more evenly spread out throughout the day than on weekdays.  The interval in and around 8:00-9:00AM is the most active time, on both weekdays and weekends. 
